@@ -1,0 +1,25 @@
+{
+  "name": "cpsc-332-web-dev-final-project-jberry1103-1",
+  "version": "1.0.0",
+  "description": "README repository-test\r This is a Web Development Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend/my-react-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cpsc-332-web-dev-final-project-jberry1103-1": "file:",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "jwt-simple": "^0.5.6",
+    "mongo-sanitize": "^1.1.0",
+    "path": "^0.12.7",
+    "validatorjs": "^3.22.1"
+  }
+}

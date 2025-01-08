@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.name {
+  background-color: rgb(12, 64, 12);; 
+  height: 55px;
+  font-size: 25px;
+  color: white; 
+  position: relative;
+  
+}
+
+.list {
+  list-style: none;
+}
+
+body{
+  font-family: Helvetica;
+  margin: 0;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+.belt{
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#menu-bar{
+  background: crimson;
+  color: #fff;
+  padding: 10px;
+}
+
+#menu-bar h1{
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+#menu-bar ul{
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+#menu-bar li{
+  float: right;
+  margin-left: 20px;
+}
+
+#menu-bar a{
+  color: #fff
+}
+
+main{
+  background: #eee;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.content{
+  padding: 20px;
+}
+
+.content button,
+.content input[type="submit"]{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #777;
+  border: 0;
+  box-shadow: 2px 2px 2px rgba(20,20,20,0.1);
+  font-size: 16px;
+}
+
+.content button:nth-child(2){
+  float: right;
+}
+
+.content ul{
+  padding: 0;
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.content li{
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
+  color: #444;
+}
+
+.content li span{
+  float: right;
+}
+
+.content li h3{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.content input{
+  width: 90%;
+  padding: 10px 5%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+}
+
+.content input[type="submit"]:last-child{
+  width: 150px;
+  display: block;
+  margin: 15px auto;
+}
+
+.remove{
+  float: right;
+  padding: 5px;
+  background: #fff;
+  width: 18px;
+  text-align: center;
+  border-radius: 20px;
+  color: crimson;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+#container {
+  height: 95vh;
+  width: 95vw;
+  font-size: 20px;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  color: rgb(12, 64, 12);;
+  border: 19px solid rgb(12, 64, 12);
+ 
+}
+
+.online {
+  font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    top: 10%; 
+    left: 39%;
+  
+}
+
+.logo {
+  font-size: 56px;
+  font-weight: bold;
+  position: relative;
+  top: 45%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+.signin-buttons {
+  background-color: rgb(12, 64, 12); 
+  border: none;
+  color: white;
+  padding: 15px 30px; 
+  text-align: center;
+  text-decoration: none;
+  display: relative;
+  font-size: 16px;
+  border: 2px solid rgb(12, 64, 12);
+  border-radius: 30px;
+  width: 200px;
+}
+
+.signin-buttons:hover {
+  background-color: rgb(23, 121, 23);
+  border: 2px solid rgb(23, 121, 23);
+}
+
+#createAccount, #login {
+  position: relative;
+  top: 14%;
+  transform: translate(-50%, -50%);
+}
+
+#createAccount {
+  left: 44%;
+}
+
+#login {
+  left: 45%;
+}
+
+.form-container {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+
+Link {
+  color:white; 
+}
+
+
+.name {
+  
+  padding: 10px 20px; /* Padding for the navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.list {
+  list-style-type: none; /* Remove default list styling */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.Home-Link {
+  font-size: 30px; /* Font size for the link */
+  
+}
+
+.Home-Link a {
+  text-decoration: none; /* Remove underline from link */
+  color: white; /* Text color */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.Home-Link a:hover {
+  color: #ffe600; /* Change color on hover */
+}
+
+.home-page{
+  height: 600px;
+  width: 1000px;
+  margin: 50px auto;
+}
